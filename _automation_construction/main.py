@@ -22,7 +22,7 @@ with open("vulns.txt", "r") as vulns:
 vulns.close()
 
 #pega a primeira palavra depois do http ou https:// (nome do site)
-# AQUI USANDO seperj
+# AQUI USANDO spleen
 wordSite = "spleen"
 
 #aqui testando pegar a primeira palavra mas só está pegando as urls inteiras do vulns.txt
