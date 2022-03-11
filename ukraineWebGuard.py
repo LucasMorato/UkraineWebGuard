@@ -77,7 +77,7 @@ with open("updatedUrls.txt", "r") as h:
   for line in h:
     wpsfile = line.strip()
     with open("vulns.txt", "w") as external_file:
-        vulns_output = sp.getoutput(f"wpscan --url {wpsfile} --api-token {token} --random-user-agent --ignore-main-redirect | grep -i '[!]\| url:\|started\|Aborted' | grep -v 'Effective\|style\|WARNING\|The version'")
+        vulns_output = sp.getoutput(f"wpscan --url {wpsfile} --api-token {token} --enumerate vp --update --random-user-agent --ignore-main-redirect | grep -i '[!]\| url:\|started\|Aborted' | grep -v 'Effective\|style\|WARNING\|The version'")
         print(vulns_output, file=external_file)
         external_file.close()
     
