@@ -23,7 +23,7 @@ vulns.close()
 
 #pega a primeira palavra depois do http ou https:// (nome do site)
 # AQUI USANDO seperj
-wordSite = "seperj"
+wordSite = "spleen"
 
 #aqui testando pegar a primeira palavra mas só está pegando as urls inteiras do vulns.txt
 #for line in xVulns:
@@ -32,7 +32,7 @@ wordSite = "seperj"
 #aqui tentando também https://stackoverflow.com/questions/44021846/extract-domain-name-from-url-in-python
 
 
-#se a palavra existir na lista de emails e na lista vulns (seperj por exemplo)
+#se a palavra existir na lista de emails e na lista vulns (spleen por exemplo)
 if wordSite in xMails and xVulns:
     # pega o item da lista(email) da lista e envia o email
     print("Enviando email para o host | Seu website pode estar vulnerável, nos contate imediatamente!")
