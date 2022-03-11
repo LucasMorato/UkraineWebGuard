@@ -1,0 +1,32 @@
+WARNING: Nokogiri was built against libxml version 2.9.10, but has dynamically loaded 2.9.12
+[+] URL: http://bezerra.org.br/ [151.106.98.16]
+[+] Started: Sat Feb 19 02:31:45 2022
+ | [!] The version is out of date, the latest version is 5.5.5
+ | [!] The version is out of date, the latest version is 8.3.4
+ | [!] The version is out of date, the latest version is 1.68.0
+ | [!] 1 vulnerability identified:
+ | [!] Title: Modal Window < 5.2.2 - RFI leading to RCE via CSRF
+ | [!] The version is out of date, the latest version is 2.10.11
+ | [!] 4 vulnerabilities identified:
+ | [!] Title: WP Job Manager < 1.23.8 - Reflected Cross-Site Scripting (XSS)
+ | [!] Title: WP Job Manager < 1.26.2 - Unauthenticated Arbitrary File Upload
+ | [!] Title: WP Job Manager < 1.29.3 - Unauthenticated Object Injection
+ | [!] Title: WP Job Manager < 1.31.3 - Phar Deserialization
+ | [!] 4 vulnerabilities identified:
+ | [!] Title: Contact Form by WPForms < 1.4.8 - Authenticated Stored Cross-Site Scripting (XSS)
+ | [!] Title: Contact Form by WPForms < 1.4.8.1 - Unauthenticated Cross-Site Scripting (XSS)
+ | [!] Title: Contact Form by WPForms < 1.5.9 - Authenticated Cross-Site Scripting (XSS)
+ | [!] Title: Contact Form by WPForms < 1.6.0.2 - Authenticated Stored Cross-Site Scripting (XSS)
+WARNING: Nokogiri was built against libxml version 2.9.10, but has dynamically loaded 2.9.12
+[+] URL: https://fundacaolasalle.org.br/ [23.94.156.241]
+[+] Started: Sat Feb 19 02:32:40 2022
+WARNING: Nokogiri was built against libxml version 2.9.10, but has dynamically loaded 2.9.12
+[+] URL: https://www.seperj.org.br/ [191.233.203.37]
+[+] Started: Sat Feb 19 02:33:26 2022
+ | [!] The version is out of date, the latest version is 6.8.0
+ | [!] 1 vulnerability identified:
+ | [!] Title: WPBakery Page Builder < 6.4.1 - Authenticated Stored Cross-Site Scripting (XSS)
+ | [!] The version is out of date, the latest version is 3.6.1
+ | [!] The version is out of date, the latest version is 6.5.16
+ | [!] The version is out of date, the latest version is 1.9.4
+WARNING: Nokogiri was built against libxml version 2.9.10, but has dynamically loaded 2.9.12
